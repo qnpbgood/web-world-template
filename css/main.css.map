@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA;;GAEG;ACFH;;GAEG;ACFH;;GAEG;AACF,IAAK;EACH,gBAAgB,EAAE,SAAS;;ACJ9B;;GAEG;ACFH;;GAEG",
+"sources": ["../scss/main.scss","../scss/_variables.scss","../scss/_global.scss","../scss/sections/_header.scss","../scss/sections/_footer.scss"],
+"names": [],
+"file": "main.css"
+}
