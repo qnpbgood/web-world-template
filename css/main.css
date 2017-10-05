@@ -45,27 +45,22 @@ header .nav {
  *
  */
 header .container {
-  line-height: 60px; }
+  min-height: 60px; }
 header ul {
   font-size: 0; }
   header ul li {
     display: inline-block; }
-    header ul li:hover {
+  header ul a {
+    display: block;
+    line-height: 84px;
+    font-size: 15px;
+    margin: 0 15px; }
+    header ul a:hover {
       background-color: #e6e6e6;
       color: #008a93; }
-    header ul li:active {
+    header ul a:active {
       background-color: #cccccc;
       color: #005a60; }
-    header ul li a {
-      line-height: 84px;
-      font-size: 15px;
-      margin: 0 15px; }
-      header ul li a:hover {
-        background-color: #e6e6e6;
-        color: #008a93; }
-      header ul li a:active {
-        background-color: #cccccc;
-        color: #005a60; }
 
 /* footer of project
  *
