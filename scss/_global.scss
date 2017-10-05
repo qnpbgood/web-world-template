@@ -3,6 +3,7 @@
  *
  */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -50,6 +51,13 @@ a {
 .container {
   max-width: $page-width;
   margin: 0 auto;
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }
 
 header {

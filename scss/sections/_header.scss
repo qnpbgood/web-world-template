@@ -2,28 +2,107 @@
 /* header of project
  *
  */
-header {
-  .container {
-    min-height: 60px;
-  }
-  ul {
-    font-size: 0;
-    li {
+#page-header {
+  .top {
+    .logo {
+      font-family: $font-pacifico;
+      font-size: 24px;
+      line-height: 1;
       display: inline-block;
-    }
-    a {
-      display: block;
-      line-height: 84px;
-      font-size: 15px;
-      margin: 0 15px;
-      &:hover {
-        background-color: darken($color-white, 10);
-        color: darken($color-turquoise, 10);
+      padding: 20px 15px;
+      span {
+        color: $color-white;
+
       }
-      &:active {
-        background-color: darken($color-white, 20);
-        color: darken($color-turquoise, 20);
+    }
+    .social {
+      float: right;
+      line-height: 64px;
+      a {
+        font-size: 24px;
+        line-height: 1;
+        margin: 0 15px ;
+        color: $color-gray;
+        -webkit-transition: color 300ms ease-out;
+        -moz-transition: color 300ms ease-out;
+        -o-transition: color 300ms ease-out;
+        transition: color 300ms ease-out;
+        &:hover, &:active {
+          color: $color-turquoise;
+        }
+
+      }
+    }
+  }
+  .nav {
+    border-bottom: 4px solid darken($color-white, 5);
+    ul {
+      font-size: 0;
+      float: left;
+      padding: 18px 0;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          font-size: 14px;
+          padding: 15px;
+          line-height: 1;
+          position: relative;
+          color: $color-gray-darker;
+          text-transform: uppercase;
+          &:before {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: transparent;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -20px;
+          }
+          &:hover, &:active, &.active {
+              color: $color-turquoise;
+            }
+          &:hover:before, &:active:before, &.active:before {
+            background-color:  $color-turquoise;
+          }
+        }
+      }
+    }
+    form {
+      padding: 22px 15px 22px 0;
+      float: right;
+      width: 190px;
+      position: relative;
+      input {
+        border: 1px solid #d6d6d6;
+        display: block;
+        background-color: $color-white;
+        outline: none;
+        line-height: 34px;
+        font-size: 13px;
+        color: $color-gray;
+        padding: 0 60px 0 20px;
+        width: 100%;
+        border-radius: 2px;
+      }
+      button {
+        position: absolute;
+        display: block;
+        right: 18px;
+        top: 50%;
+        margin-top: -17px;
+        height: 34px;
+        width: 34px;
+        padding: 7px 8px;
+        font-size: 18px;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: $color-light-gray;
       }
     }
   }
 }
+
