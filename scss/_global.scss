@@ -2,6 +2,61 @@
 /* global styles and resets
  *
  */
- body {
-   background-color: royalblue;
- }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800');
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+%margin-reset {
+  margin: 0;
+}
+
+%padding-reset {
+  padding: 0;
+}
+
+body {
+  font: {
+    family: $font-open-sans;
+    size: 15px;
+    weight: normal;
+  }
+  color: $color-gray-darker-2;
+  @extend %margin-reset;
+}
+
+p {
+  @extend %margin-reset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend %margin-reset;
+}
+
+ul, ol {
+  list-style: none;
+  @extend %margin-reset;
+  @extend %padding-reset;
+}
+
+a {
+  text-decoration: none;
+  color: $color-turquoise;
+}
+
+.container {
+  max-width: $page-width;
+  margin: 0 auto;
+}
+
+header {
+  .top {
+    background-color: $color-dark-gray;
+  }
+  .nav {
+    background-color: $color-white;
+  }
+}

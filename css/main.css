@@ -1,18 +1,72 @@
 /*
  *
  */
-/*variables of project
- *
+/*
+ * variables of project
  */
 /* global styles and resets
  *
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol {
+  margin: 0; }
+
+ul, ol {
+  padding: 0; }
+
 body {
-  background-color: royalblue; }
+  font-family: "Open Sans", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #a9a9a9; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #00bac6; }
+
+.container {
+  max-width: 980px;
+  margin: 0 auto; }
+
+header .top {
+  background-color: #252323; }
+header .nav {
+  background-color: #ffffff; }
 
 /* header of project
  *
  */
+header .container {
+  line-height: 60px; }
+header ul {
+  font-size: 0; }
+  header ul li {
+    display: inline-block; }
+    header ul li:hover {
+      background-color: #e6e6e6;
+      color: #008a93; }
+    header ul li:active {
+      background-color: #cccccc;
+      color: #005a60; }
+    header ul li a {
+      line-height: 84px;
+      font-size: 15px;
+      margin: 0 15px; }
+      header ul li a:hover {
+        background-color: #e6e6e6;
+        color: #008a93; }
+      header ul li a:active {
+        background-color: #cccccc;
+        color: #005a60; }
+
 /* footer of project
  *
  */

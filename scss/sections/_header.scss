@@ -2,3 +2,35 @@
 /* header of project
  *
  */
+header {
+.container {
+  line-height: 60px;
+}
+   ul {
+     font-size: 0;
+     li {
+       display: inline-block;
+       &:hover {
+         background-color: darken($color-white, 10);
+         color: darken($color-turquoise, 10);
+       }
+       &:active {
+         background-color: darken($color-white, 20);
+         color: darken($color-turquoise, 20);
+       }
+       a {
+         line-height: 84px;
+         font-size: 15px;
+         margin: 0 15px;
+         &:hover {
+           background-color: darken($color-white, 10);
+           color: darken($color-turquoise, 10);
+         }
+         &:active {
+           background-color: darken($color-white, 20);
+           color: darken($color-turquoise, 20);
+         }
+       }
+     }
+   }
+ }
