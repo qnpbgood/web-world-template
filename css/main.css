@@ -125,13 +125,14 @@ header .nav {
       margin-top: -17px;
       height: 34px;
       width: 34px;
-      padding: 7px 8px;
+      padding: 0 8px;
       font-size: 18px;
       background: none;
       border: none;
       outline: none;
       cursor: pointer;
-      color: #cacaca; }
+      color: #cacaca;
+      line-height: 34px; }
 
 /* footer of project
  *
