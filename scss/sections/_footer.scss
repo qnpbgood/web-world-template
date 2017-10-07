@@ -20,8 +20,15 @@
         float: left;
         h3 {
           color: $color-white;
-          p {
-            color: $color-gray;
+          .tags {
+            p {
+              color: $color-gray;
+              a {
+                .hot {
+                  font-weight: 700;
+                }
+              }
+            }
           }
         }
       }

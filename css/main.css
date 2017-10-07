@@ -158,8 +158,10 @@ footer .copyright {
         float: left; }
         #page-footer .wrapper .container .col h3 {
           color: #ffffff; }
-          #page-footer .wrapper .container .col h3 p {
+          #page-footer .wrapper .container .col h3 .tags p {
             color: #c1c1c1; }
+            #page-footer .wrapper .container .col h3 .tags p a .hot {
+              font-weight: 700; }
   #page-footer .copyright p {
     line-height: 1;
     font-size: 14px;
