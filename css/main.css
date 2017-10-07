@@ -143,13 +143,13 @@ header .nav {
   bottom: 0;
   width: 100%; }
   #page-footer .wrapper {
-    background: url("../../background/Layer 34.png") center center; }
+    background: url("../img/Layer34.png") center center; }
     #page-footer .wrapper .container .col {
       width: 25%;
       font-size: 14px;
       padding: 30px 38px;
       float: left;
-      background: url("../../background/Layer 34.png") center center; }
+      background: url("../img/Layer34.png") center center; }
       #page-footer .wrapper .container .col h3 {
         color: #ffffff;
         margin-bottom: 18px; }
@@ -160,7 +160,7 @@ header .nav {
         #page-footer .wrapper .container .col .tags a:hover, #page-footer .wrapper .container .col .tags a:active {
           color: #00bac6; }
   #page-footer .copyright {
-    background: url("../../background/Layer3.png") center center; }
+    background: url("../../img/Layer3.png") center center; }
     #page-footer .copyright p {
       line-height: 1;
       font-size: 14px;
