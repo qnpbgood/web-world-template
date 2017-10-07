@@ -8,26 +8,27 @@
   bottom: 0;
   width: 100%;
   .wrapper {
-    height: 327px;
-    background-color: $color-gray-darker;
+    background: url("../../background/Layer 34.png") center center;
     .container {
-      font-size: 0;
+
       .col {
-        display: inline-block;
         width: 25%;
         font-size: 14px;
         padding: 30px 38px;
         float: left;
+        background: url("../../background/Layer 34.png") center center;
         h3 {
           color: $color-white;
-          .tags {
-            p {
-              color: $color-gray;
-              a {
-                .hot {
-                  font-weight: 700;
-                }
-              }
+          margin-bottom: 18px;
+        }
+        .tags {
+          a {
+            color: $color-gray;
+            &.hot {
+              font-weight: bold;
+            }
+            &:hover, &:active {
+              color: $color-turquoise;
             }
           }
         }
@@ -35,6 +36,7 @@
     }
   }
   .copyright {
+      background: url("../../background/Layer3.png") center center;
     p {
       line-height: 1;
       font-size: 14px;

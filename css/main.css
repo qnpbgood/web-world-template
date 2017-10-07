@@ -47,9 +47,6 @@ header .top {
 header .nav {
   background-color: #ffffff; }
 
-footer .copyright {
-  background-color: #2b2624; }
-
 /* header of project
  *
  */
@@ -146,27 +143,29 @@ footer .copyright {
   bottom: 0;
   width: 100%; }
   #page-footer .wrapper {
-    height: 327px;
-    background-color: #7b7b7b; }
-    #page-footer .wrapper .container {
-      font-size: 0; }
-      #page-footer .wrapper .container .col {
-        display: inline-block;
-        width: 25%;
-        font-size: 14px;
-        padding: 30px 38px;
-        float: left; }
-        #page-footer .wrapper .container .col h3 {
-          color: #ffffff; }
-          #page-footer .wrapper .container .col h3 .tags p {
-            color: #c1c1c1; }
-            #page-footer .wrapper .container .col h3 .tags p a .hot {
-              font-weight: 700; }
-  #page-footer .copyright p {
-    line-height: 1;
-    font-size: 14px;
-    float: left;
-    margin: 37px 0; }
+    background: url("../../background/Layer 34.png") center center; }
+    #page-footer .wrapper .container .col {
+      width: 25%;
+      font-size: 14px;
+      padding: 30px 38px;
+      float: left;
+      background: url("../../background/Layer 34.png") center center; }
+      #page-footer .wrapper .container .col h3 {
+        color: #ffffff;
+        margin-bottom: 18px; }
+      #page-footer .wrapper .container .col .tags a {
+        color: #c1c1c1; }
+        #page-footer .wrapper .container .col .tags a.hot {
+          font-weight: bold; }
+        #page-footer .wrapper .container .col .tags a:hover, #page-footer .wrapper .container .col .tags a:active {
+          color: #00bac6; }
+  #page-footer .copyright {
+    background: url("../../background/Layer3.png") center center; }
+    #page-footer .copyright p {
+      line-height: 1;
+      font-size: 14px;
+      float: left;
+      margin: 37px 0; }
   #page-footer .social {
     float: right;
     line-height: 88px; }
