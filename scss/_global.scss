@@ -27,6 +27,10 @@ body {
   }
   color: $color-gray-darker-2;
   @extend %margin-reset;
+  //TODO: delete main
+  main {
+    min-height: 1000px;
+  }
 }
 
 p {
