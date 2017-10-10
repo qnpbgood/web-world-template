@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* global styles and resets
- *
+/*
+ * Global styles and resets
  */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
@@ -29,7 +29,7 @@ body {
   @extend %margin-reset;
   //TODO: delete main
   main {
-    min-height: 1000px;
+    min-height: 1100px;
   }
 }
 

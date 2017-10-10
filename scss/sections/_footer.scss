@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* footer of project
- *
+/*
+ * Footer of project
  */
 #page-footer {
   .wrapper {
@@ -34,7 +34,6 @@
             line-height: 1.5;
             font-weight: normal;
             color: $color-gray;
-
           }
           footer {
             i {
@@ -60,7 +59,7 @@
           }
         }
         &.col-about {
-          p{
+          p {
             margin-bottom: 20px;
             color: $color-gray;
             &:last-child {
