@@ -26,7 +26,7 @@ body {
   font-weight: normal;
   color: #a9a9a9; }
   body main {
-    min-height: 1100px; }
+    min-height: 1000px; }
 
 ul, ol {
   list-style: none; }
@@ -135,6 +135,80 @@ header .nav {
       cursor: pointer;
       color: #cacaca;
       line-height: 34px; }
+
+/*
+ * Home page of project
+ */
+.slider-section .home-slider .slick-arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+.slider-section .home-slider .slick-dots {
+  position: absolute;
+  bottom: 27px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+  .slider-section .home-slider .slick-dots li {
+    display: inline-block;
+    margin-right: 8px; }
+    .slider-section .home-slider .slick-dots li:last-child {
+      margin: 0; }
+    .slider-section .home-slider .slick-dots li.slick-active i:before {
+      background: #00bac6; }
+    .slider-section .home-slider .slick-dots li i {
+      cursor: pointer;
+      position: relative;
+      display: block;
+      width: 18px;
+      height: 18px; }
+      .slider-section .home-slider .slick-dots li i:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        background: transparent; }
+      .slider-section .home-slider .slick-dots li i:after {
+        content: '';
+        display: block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 5px solid #ffffff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+.slider-section .home-slider .slide {
+  height: 450px;
+  outline: none;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  .slider-section .home-slider .slide .container {
+    display: table;
+    height: 100%; }
+    .slider-section .home-slider .slide .container .inner {
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      color: #ffffff;
+      padding: 0 190px;
+      text-align: center; }
+      .slider-section .home-slider .slide .container .inner h2 {
+        font-weight: normal;
+        font-size: 40px;
+        margin-bottom: 20px; }
+      .slider-section .home-slider .slide .container .inner p {
+        font-size: 15px; }
 
 /*
  * Footer of project

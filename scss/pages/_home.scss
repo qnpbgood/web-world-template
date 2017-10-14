@@ -3,6 +3,105 @@
  * Home page of project
  */
 
-  &.container-slider {
+// Slider section
 
+.slider-section {
+  .home-slider {
+    .slick-arrow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 100;
+    }
+    .slick-prev {
+      // смотри по поводу буллетов на примере бургера меню
+    }
+    .slick-next {
+
+    }
+    .slick-dots {
+      position: absolute;
+      bottom: 27px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      li {
+        display: inline-block;
+        margin-right: 8px;
+        &:last-child {
+          margin: 0;
+        }
+        // все оставляю тебя наедине с твоим незнанием и скорым узнаванием полезной инфы!
+        // открой макет, глянь сколько между ними расстояния? снизу померяй сколько// понял? откуда взялось?я про кругляши, а картинки накачай еще я тебе заготовил) да понял вроде как
+        &.slick-active {
+          i {
+            &:before {
+              background: $color-turquoise;
+            }
+          }
+        }
+        i {
+          cursor: pointer; // делаем пальчик чтоб понятно было что можно кликнуть
+          position: relative;
+          display: block;
+          width: 18px;
+          height: 18px;
+          &:before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            background: transparent;
+          }
+          &:after {
+            content: '';
+            display: block;
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 5px solid $color-white;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .slide {
+      height: 450px;
+      outline: none; // это обязательно писать, а то в хроме голубая подсветка на слайдах, некрасиво!//
+      background: no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      .container {
+        display: table;
+        height: 100%;
+        .inner {
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          color: $color-white;
+          padding: 0 190px;
+          text-align: center;
+          h2 {
+            font-weight: normal;
+            font-size: 40px;
+            margin-bottom: 20px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
   }
+}
+
